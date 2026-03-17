@@ -1,0 +1,42 @@
+{
+	"schemaVersion": 1,
+	"id": "carpet-visualfix",
+	"version": "${version}",
+	"name": "Carpet-VisualFix",
+	"description": "Fixes entity animations in lazy-loaded chunks",
+	"authors": [
+		"XSY_xiaoqi"
+	],
+	"contact": {
+		"homepage": "https://modrinth.com/project/carpet-visualfix/",
+		"sources": "https://github.com/XSY-HYH/Carpet-VisualFix"
+	},
+	"license": "MIT",
+	"icon": "assets/carpet-visualfix/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.xiaoqi.CarpetVisualFix"
+		],
+		"client": [
+			"com.xiaoqi.CarpetVisualFixClient"
+		],
+		"carpet": [
+			"com.xiaoqi.CarpetVisualFixSettings"
+		]
+	},
+	"mixins": [
+		"carpet-visualfix.mixins.json",
+		{
+			"config": "carpet-visualfix.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.15.0",
+		"minecraft": "~1.20.4",
+		"java": ">=17",
+		"fabric-api": "*",
+		"carpet": "*"
+	}
+}

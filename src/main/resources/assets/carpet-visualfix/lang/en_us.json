@@ -1,0 +1,6 @@
+{
+	"carpet.category.client": "client",
+	
+	"carpet.rule.entityRenderingFix.desc": "Fixes entity animations in lazy-loaded chunks",
+	"carpet.rule.entityRenderingFix.name": "Entity Rendering Fix"
+}
