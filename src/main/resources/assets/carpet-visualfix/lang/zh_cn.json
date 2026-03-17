@@ -1,0 +1,6 @@
+{
+	"visualfix.category.client": "客户端",
+	
+	"visualfix.rule.entityRenderingFix.desc": "修复了弱加载区域内实体的动画",
+	"visualfix.rule.entityRenderingFix.name": "实体渲染修复"
+}

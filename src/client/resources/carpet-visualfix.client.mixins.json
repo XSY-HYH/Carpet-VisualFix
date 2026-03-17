@@ -1,0 +1,11 @@
+{
+	"required": true,
+	"package": "com.xiaoqi.mixin.client",
+	"compatibilityLevel": "JAVA_21",
+	"client": [
+		"ClientWorldMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
