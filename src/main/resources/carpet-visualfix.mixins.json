@@ -1,0 +1,15 @@
+{
+	"required": true,
+	"package": "com.xiaoqi.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"EntityTrackerEntryMixin",
+		"ServerChunkLoadingManagerAccessor"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}
