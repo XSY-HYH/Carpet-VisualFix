@@ -35,3 +35,8 @@ MIT
 ## Author
 
 XSY_xiaoqi
+
+## Research
+
+- [Minecraft TNT Entity Research Report (English)](docs/Minecraft_TNT_Research_Report_en.md)
+- [Minecraft TNT 实体研究报告 (中文)](docs/Minecraft_TNT_Research_Report_zh.md)
